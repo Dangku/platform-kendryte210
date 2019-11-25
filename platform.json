@@ -21,7 +21,7 @@
     "packageRepositories": [
         "https://dl.bintray.com/platformio/dl-packages/manifest.json",
         "http://dl.platformio.org/packages/manifest.json",
-        "https://raw.githubusercontent.com/Dangku/Maixduino/master/packages/manifest.json"
+        "https://raw.githubusercontent.com/Dangku/platform-kendryte210/master/packages/manifest.json"
     ],
     "frameworks": {
         "kendryte-standalone-sdk": {
