@@ -20,7 +20,8 @@
     }],
     "packageRepositories": [
         "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-        "http://dl.platformio.org/packages/manifest.json"
+        "http://dl.platformio.org/packages/manifest.json",
+        "https://raw.githubusercontent.com/Dangku/Maixduino/master/package.json"
     ],
     "frameworks": {
         "kendryte-standalone-sdk": {
@@ -35,6 +36,10 @@
             "package": "framework-maixduino",
             "script": "builder/frameworks/arduino.py"
         }
+	"arduino-bananapi":{
+            "package": "framework-bananapi",
+            "script": "builder/frameworks/arduino.py"
+        }
     },
     "packages": {
         "toolchain-kendryte210": {
@@ -45,6 +50,11 @@
             "type": "framework",
             "optional": true,
             "version": "~0.3.9"
+        },
+	"framework-bananapi": {
+            "type": "framework",
+            "optional": true,
+            "version": "~0.3.12"
         },
         "framework-kendryte-standalone-sdk": {
             "type": "framework",
