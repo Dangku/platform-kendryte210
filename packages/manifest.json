@@ -1,0 +1,10 @@
+{
+  "framework-rbxyduino": [
+    {
+      "sha1": "2c1236444bd00e57d37e564900f49a4e7d83ad97", 
+      "system": "*", 
+      "url": "https://raw.githubusercontent.com/Dangku/Maixduino/master/packages/framework-rbxyduino-0.3.12.tar.gz", 
+      "version": "0.3.12"
+    }
+  ]
+}
