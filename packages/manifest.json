@@ -1,7 +1,7 @@
 {
   "framework-rbxyduino": [
     {
-      "sha1": "2c1236444bd00e57d37e564900f49a4e7d83ad97", 
+      "sha1": "3c7ef5de24ab4de806fb1e2705db449a59bb35c8",
       "system": "*", 
       "url": "https://raw.githubusercontent.com/Dangku/platform-kendryte210/master/packages/framework-rbxyduino-0.3.13.tar.gz",
       "version": "0.3.13"
