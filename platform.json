@@ -32,11 +32,11 @@
             "package": "framework-kendryte-freertos-sdk",
             "script": "builder/frameworks/kendryte-freertos-sdk.py"
         },
-        "arduino":{
+        "arduino": {
             "package": "framework-maixduino",
             "script": "builder/frameworks/arduino.py"
-        }
-	"arduino-bananapi":{
+        },
+	"arduino-bananapi": {
             "package": "framework-bananapi",
             "script": "builder/frameworks/arduino.py"
         }
